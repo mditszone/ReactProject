@@ -1,0 +1,21 @@
+.mdits-app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .mdits-app-form {
+        display: flex;
+        width: 80%;
+        .header {
+            width: 40%;
+            border: 1px solid red;
+            padding: 20px 10px;
+            .mdits-app-links-container {
+                .data-links {
+                    padding: 10px;
+                }
+            }
+        }
+    }
+}
+
+

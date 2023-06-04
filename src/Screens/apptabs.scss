@@ -1,0 +1,50 @@
+.mdits-app-tabs-container {
+    background-color: #ebedef;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: center;
+    
+    .mdits-app-tabs {
+        width: 70%;
+        height: 80vh;
+        background-color: #fff;
+        border: 1px solid rgb(193, 237, 226);
+        .mdits-app-tabs-content {
+            height: 80vh;
+            overflow: scroll;
+        }
+    }
+}
+
+.mdits-app-item-container {
+    margin: 20px;
+    display: flex;
+    .data {
+        width: 70%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .index {
+        width: 30%;
+    }
+    
+}
+
+.highlight {
+    margin: 20px;
+    display: flex;
+    background-color: aquamarine;
+    .data {
+        width: 70%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .image {
+        width: 30%;
+    }
+    
+}
